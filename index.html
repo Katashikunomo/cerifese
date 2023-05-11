@@ -20,18 +20,23 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!--Styles css-->
     <link rel="stylesheet" href="style/style.css">
+    <script src="http://code.query.com/jquery-latest.js"></script>
+    <!--Font-->
+    <script src="https://kit.fontawesome.com/bc365c36ca.js" crossorigin="anonymous"></script>    
 </head>
 
 <body>
+  <span class="ir-arriba" id="btn-back-to-top"><img src="images/arrow.svg" alt="" style="width: 45px; height:35px;  background: #94e6b7;
+    border-radius: 50px; color:#eee; box-shadow: 0px 3px 6px #000;"></span>
   <header>
 
-    <div class="container  ">
+    <div class="container ">
     <nav class="navbar navbar-defaul barra_nav " role="navigation">
-      <a class="navbar-brand logo " href="#"><img src="images/logos/LogoFeseverde.webp" alt="" style="width: 90%;"></a>
+      <a class="navbar-brand logo " href="https://www.fese.org.mx" target="_blank"><img src="images/logos/LogoFeseverde.webp" alt="" style="width: 90%;"></a>
       <div class="navbar-header">
-        <a name="" id="" class="btn border navegacion  d-none d-sm-inline-block " href="#" role="button">Objetivo</a>
-        <a name="" id="" class="btn border navegacion d-none d-sm-inline-block" href="#" role="button">Duración</a>
-        <a name="" id="" class="btn border navegacion d-none d-sm-inline-block" href="#" role="button">Dirigido a</a>
+        <a name="" id="" class="btn border navegacion  d-none d-sm-inline-block " href="#estandares" role="button">Estandares</a>
+        <a name="" id="" class="btn border navegacion d-none d-sm-inline-block" href="#capacitacion" role="button">Capacitación</a>
+        <a name="" id="" class="btn border navegacion d-none d-sm-inline-block" href="#certificacion" role="button">Certificación</a>
       </div>
           <button class="navbar-toggler  d-block d-sm-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar">
@@ -40,7 +45,7 @@
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">FESE - Certificaciones</h5>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
@@ -48,13 +53,13 @@
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 
                 <li class="nav-item">
-                  <a class="nav-link  navegacion text-center" aria-current="page" href="#">Objetivo</a>
+                  <a class="nav-link  navegacion text-center" aria-current="page" href="#estandares">Estandares</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link  navegacion text-center" aria-current="page" href="#">Duración</a>
+                  <a class="nav-link  navegacion text-center" aria-current="page" href="#capacitacion">Capacitación</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link  navegacion text-center" aria-current="page" href="#">Dirigido a</a>
+                  <a class="nav-link  navegacion text-center" aria-current="page" href="#certificacion">Certificación</a>
                 </li>
             </div>
           </div>
@@ -69,26 +74,672 @@
       <p>
         La Fundación Educación Superior Empresa, A.C., está acreditada como Entidades de Certificación y Evaluación (ECE) por el CONOCER, para capacitar, evaluar y/o certificar las competencias laborales de las personas, con base en Estándares de Competencia inscritos en el Registro Nacional de Estándares de Competencia (RENEC). 
       </p>
-      <div class="objetivo">
-        <h2 class="text-center">Objetivo General</h2>
-        
-        <p>Contribuir a la formación de las personas mediante la certificación de sus competencias socioemocionales, técnicas y profesionales. </p>
-      </div>
-      
-      <div class="objetivo">
-          <h2 class="text-center">Duración</h2>    
-            <p>Cada una de las certificaciones con las que contamos tienen diferentes duraciones. Para saber más, revisa el apartado de Estándares.  </p>
+
+            <div class="container-fluid">
+
+            <div class="cards_">
+              <h2 class="text-center">Objetivo General</h2>
+              
+              <p>Contribuir a la formación de las personas mediante la certificación de sus competencias socioemocionales, técnicas y profesionales. </p>
+            </div>
+            
+            <div class="cards_rigth">
+                <h2 class="text-center">Duración</h2>    
+                  <p>Cada una de las certificaciones con las que contamos tienen diferentes duraciones. Para saber más, revisa el apartado de Estándares.  </p>
+                </div>
+            <div class="cards_">
+              <h2 class="text-center"> ¿ A quien va Dirigido?</h2>
+
+              <p>A todas las personas que quieran seguir formándose para mejorar su desempeño laboral. A estudiantes de nivel licenciatura, egresados y profesionales interesados en certificar sus competencias laborales. </p>
+            </div>
           </div>
-      <div class="objetivo">
-        <h2 class="text-center"> ¿ A quien va Dirigido?</h2>
+          <br>
+          <a name="estandares"></a>
+          <h2 class="text-center h2-title">Estándares</h2>
+          <br>
+          <h5>
+            La Entidad de Certificación y Evaluación de la FESE, tiene las siguientes certificaciones para complementar tu formación. 
+          </h5>
+          <h2><b>A.</b> Competencias para el desempeño laboral </h2>
 
-        <p>A todas las personas que quieran seguir formándose para mejorar su desempeño laboral. A estudiantes de nivel licenciatura, egresados y profesionales interesados en certificar sus competencias laborales. </p>
-      </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="">
+                <div class="container border cards_title">
+                  <br><br>
 
-    </div>
+                  <br>
+                 
+      
+                 <ul class="list-unstyled">
+                   <br>
+                   <li class="d-flex">
+                     <div class="flex-shrink-0">
+                             <img src="#" alt="" >
+                         </div>
+                         <div class="flex-grow-1 ms-2">
+                           
+                             <h3>
+                              <b>
+                                EC0782 – Aplicación de habilidades genéricas para la competitividad laboral 
+                              </b>
+                              </h3>
+                           
+                         </div>
+                     </li>
+                     <li class="d-flex">
+                         <div class="flex-shrink-0">
+                             <img src="#" alt="" width="">
+                         </div>
+                         <div class="flex-grow-1 ms-3">
+                             <!-- <h5 class="mt-0">Media heading</h5> -->
+                             <p>Estándar de Competencia que contempla las funciones sustantivas de aplicar conocimientos profesionales para la toma de decisiones, generando alternativas de solución a problemas detectados en la organización/empresa; participando proactivamente en equipo, asignando roles y funciones de los miembros del equipo de acuerdo al trabajo asignado; utilizar la comunicación asertiva: verbal, escrita y no verbal en distintos niveles jerárquicos y aplicar con creatividad ideas para mejorar los resultados en el ámbito laboral, desarrollando planes estratégicos en relación a las necesidades de la organización/empresa. </p>
+                         </div>
+                     </li>
+                     <li class="d-flex">
+                         <div class="flex-shrink-0">
+                             <img src="#" alt="" width="">
+                         </div>
+                         <div class="flex-grow-1 ms-3">
+                             <h4 class="mt-2">¿Qué habilidades debo tener para certificarme? </h4>
+      
+                             <ol>
+                               <li>Aplicar conocimientos profesionales para la toma de decisiones en el medio laboral. </li>
+                               <li>Participar proactivamente en equipo en el medio laboral. </li>
+                               <li>Aplicar la innovación como estrategia para mejorar un producto, proceso / servicio. </li>
+                               <!-- <li></li> -->
+                             </ol>
+                             <br>
+                             <h5>Duración : <i>6 horas</i></h5>
+                             <h5>Modalidad : <i>Presencial</i></h5>
+                             <div class="text-center">
+                                <a name="" id="" class="btn navegacion" download="Codigo js" href="js/arrow.js" role="button"><b>Descargar</b></a>
+                             </div>
+                         </div>
+                     </li>
+                 </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="">
+                <div class="container border cards_title">
+                  <br><br>
+
+                  <br>
+                 
+      
+                 <ul class="list-unstyled">
+                     <li class="d-flex">
+                         <div class="flex-shrink-0">
+                             <img src="#" alt="" >
+                         </div>
+                         <div class="flex-grow-1 ms-2">
+                             <h3>
+                              <b>
+                                EC0076 – Evaluación de la competencia de candidatos con base en Estándares de Competencia 
+                              </b>
+                              </h3>
+                         </div>
+                     </li>
+                     <li class="d-flex">
+                         <div class="flex-shrink-0">
+                             <img src="#" alt="" width="">
+                         </div>
+                         <div class="flex-grow-1 ms-3">
+                             <!-- <h5 class="mt-0">Media heading</h5> -->
+                             <p>Estándar de Competencia dirigido a personas que deban contar con conocimientos, habilidades, destrezas y actitudes para evaluar la competencia de personas con base en un Estándar de Competencia, por medio de sus diversas etapas: la preparación de la evaluación, la recopilación de evidencias de la competencia de la persona, la emisión de un juicio de competencia y la presentación de los resultados de la evaluación. </p>
+                         </div>
+                     </li>
+                     <li class="d-flex">
+                         <div class="flex-shrink-0">
+                             <img src="#" alt="" width="">
+                         </div>
+                         <div class="flex-grow-1 ms-3">
+                             <h4 class="mt-2">¿Qué habilidades debo tener para certificarme? </h4>
+      
+                             <ol>
+                               <li>Preparar la evaluación de la competencia del candidato. </li>
+                               <li>Recopilar las evidencias de la competencia del candidato. </li>
+                               <li>Emitir el juicio de la competencia del candidato.  </li>
+                               <li>Presentar los resultados de la evaluación de competencia del candidato. </li>
+                             </ol>
+                             <h5>Duración : <i>3 horas</i></h5>
+                             <h5>Modalidad : <i>Presencial</i></h5>
+                             <div class="text-center">
+                                <a name="" id="" class="btn navegacion" download="Codigo js" href="js/arrow.js" role="button"><b>Descargar</b></a>
+                             </div>
+
+                         </div>
+                     </li>
+                 </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="">
+                <div class="container border cards_title">
+                  <br><br>
+
+                  <br>
+                 
+      
+                 <ul class="list-unstyled">
+                     <li class="d-flex">
+                         <div class="flex-shrink-0">
+                             <img src="#" alt="" >
+                         </div>
+                         <div class="flex-grow-1 ms-2">
+                             <h3>
+                              <b>
+                                EC0249 – Proporcionar servicios de consultoría general 
+                              </b> 
+                             </h3>
+                         </div>
+                     </li>
+                     <li class="d-flex">
+                         <div class="flex-shrink-0">
+                             <img src="#" alt="" width="">
+                         </div>
+                         <div class="flex-grow-1 ms-3">
+                             <!-- <h5 class="mt-0">Media heading</h5> -->
+                             <p>Estándar de Competencia que contiene las funciones críticas y sustantivas que un consultor tiene como mínimo que mostrar en su competencia, estas funciones son: Identificar la situación / problema planteado; desarrollar opciones de solución a la situación / problema planteado; la exposición y presentación de la propuesta de solución al consultante, y elaborar la propuesta de trabajo. </p>
+                         </div>
+                     </li>
+                     <li class="d-flex">
+                         <div class="flex-shrink-0">
+                             <img src="#" alt="" width="">
+                         </div>
+                         <div class="flex-grow-1 ms-3">
+                             <h4 class="mt-2">¿Qué habilidades debo tener para certificarme? </h4>
+      
+                             <ol>
+                               <li>Identificar la situación / problema planteado. </li>
+                               <li>Desarrollar opciones de solución a la situación / problema planteado. </li>
+                               <li>Presentar la propuesta de solución. </li>
+                               <!-- <li></li> -->
+                             </ol>
+                             <h5>Duración : <i>5 horas</i></h5>
+                             <h5>Modalidad : <i>Presencial</i></h5>
+                             <div class="text-center">
+                                <a name="" id="" class="btn navegacion" download="Codigo js" href="js/arrow.js" role="button"><b>Descargar</b></a>
+                             </div>
+
+                         </div>
+                     </li>
+                 </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3>Visita nuestra página contantemente ya que estamos expandiendo las certificaciones que podemos ofrecerte. </h3>
+          <br>
+          <br>
+          <h3><b>1.</b> <i>Precios diferenciados</i>  </h3>
+          <div class=" border-top">
+            <div class="table-responsive cards_table">
+              <table class="table table-default">
+                <thead>
+                  <tr>
+                    <th scope="col">Código</th>
+                    <th scope="col">Nombre del Estándar de Competencia</th>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Proceso de Evaluacion</th>
+                    <th scope="col">Emisión de Certificado</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="">
+                    <td scope="row">EC0076 </td>
+                    <td>Evaluación de la competencia de candidatos con base en estándares de competencia </td>
+                    <td>3</td>
+                    <td>$2,640.00</td>
+                    <td>$400.00</td>
+                    <td>$3,040.00 </td>
+                  </tr>
+                  <tr class="">
+                    <td scope="row">EC0249</td>
+                    <td>Proporcionar servicios de consultoría genera </td>
+                    <td>5</td>
+                    <td>$4,4240.00 </td>
+                    <td>$400.00</td>
+                    <td>$4,640.00</td>
+                  </tr>
+                  <tr class="">
+                    <td scope="row">EC0782</td>
+                    <td>Aplicación de habilidades genéricas para la competitividad laboral </td>
+                    <td>4</td>
+                    <td>$3,640.00 </td>
+                    <td>$400.00 </td>
+                    <td>$4,040.00 </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <br>
+            <a name="capacitacion"></a>
+            <h2 class="text-center h2-title">Capacitación</h2>
+            <br><br><br>
+
+            <h2 class="text-left border-bottom"> <b>2.</b> <i> Cursos y Talleres</i> </h2>
+            <br>
+            <div class="w-75 ">
+
+                <div class="accordion accordion-flush border-bottom " id="accordionFlushExample1">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="true" aria-controls="flush-collapseOne">
+                        <b>A. EC0782 </b> – Taller de alienación al Estándar de Competencia al EC0782 
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample1">
+                      <div class="accordion-body">
+                        <b> Objetivo:</b> Proporcionar los conocimientos, habilidades y actitudes requeridos para la evaluación del Estándar de Competencia “Aplicación de habilidades genéricas para la competitividad laboral”. 
+                        <br>
+                        <b>Dirigido a:</b>  Interesados en evaluar sus competencias laborales y contar con el certificado EC0782. <br>
+                        <b>Contenido:</b>  El Taller está estructurado en tres bloques:
+                          <ol>
+                            <li>Planeación estratégica y toma de decisiones </li>
+                            <li>Trabajo en equipo </li>
+                            <li>Innovación </li>
+                          </ol>
+                          <b>Duracion :</b> <i>12 horas</i><br>
+                          <b>Modalidad :</b> <i>Presencial</i>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+
+              <div class="accordion accordion-flush border-bottom" id="accordionFlushExample2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="true" aria-controls="flush-collapseOne">
+                      <b>B. EC0217</b> – Taller de alineación al EC0217 
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample2">
+                    <div class="accordion-body">
+                      <b> Objetivo:</b>  Los participantes reconocerán los elementos necesarios para impartir un curso de capacitación presencial, a través de una simulación que les permita obtener la certificación en el EC0217. 
+                        <br>
+                        <b>Dirigido a:</b>  Personas con conocimientos y habilidades para desempeñarse como instructores en cursos de formación presencial o experiencia como instructor/profesor y/o Interesados en evaluar sus competencias laborales y contar con el certificado EC0362.<br>
+                        <b>Contenido:</b>  El Taller está estructurado en cuatro bloques:
+                          <ol>
+                            <li>Preparación de las sesiones de cursos presenciales </li>
+                            <li>Evaluar los cursos de capacitación </li>
+                            <li>Conducir los cursos de capacitación </li>
+                            <li>Informe Final </li>
+                          </ol>
+                          <b>Duracion :</b> <i>6 horas</i><br>
+                          <b>Modalidad :</b> <i>Presencial</i>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="accordion accordion-flush border-bottom" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                      <b>C.EC0076</b>– Curso en línea del EC0076 “Evaluación de la competencia de candidatos con base en estándares de competencia” 
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <b> Objetivo:</b>  Proporcionar los conocimientos, habilidades y actitudes requeridos para la evaluación del Estándar de Competencia “Evaluación de la competencia de candidatos con base en Estándares de Competencia”. 
+                        <br>
+                        <b>Dirigido a:</b>  Interesados en ser Evaluadores del Sistema Nacional de Competencias del CONOCER y contar con el certificado EC0076.
+                        <b>Contenido:</b> El curso está estructurado en cinco bloques:
+                          <ol>
+                            <li>Generalidades del proceso de evaluación de competencias  </li>
+                            <li>Preparación de la evaluación de competencias </li>
+                            <li>Recopilación de las evidencias de la competencia del candidato </li>
+                            <li>Emisión del juicio de la competencia del candidato </li>
+                            <li>Presentación de los resultados de la evaluación de la competencia del candidato  </li>
+                          </ol>
+                          <b>Duracion :</b> <i>40 horas</i><br>
+                          <b>Modalidad :</b> <i>En linea</i>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+
+            <br><br><br>
+
+          </div>
+          <h2 class="text-left border-bottom"> <b>3.</b> <i> ¿Cómo instalar un Centro de Evaluación? </i> </h2>
+          <br>
+
+          <div class="">
+            <h4 class="titles_">¿Qué es un Centro de Evaluación? </h4>
+            <br>
+            <div class="row">
+              <div class="col-md">
+                <p class="titles_p">
+                  Un Centro de Evaluación (CE) es una institución pública o privada propuesta por la Entidad de Certificación y Evaluación FESE (ECE-FESE) y autorizada por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER), para evaluar con fines de certificación, las competencias de las personas con base en Estándares de Competencia inscritos en el Registro Nacionales de Estándares de Competencia (RENEC). 
+                </p>
+              </div>
+              <div class="col-md text-center ">
+                <img src="images/index/ApoyoEmpresasUniversidades.webp" alt="" class="shadow_box" style="width: 300px ">
+              </div>
+            </div>
+            <br>
+          <div class="">
+            
+              <h4 class="titles_r ">¿Qué se necesita para acreditar uno?  </h4>
+            <br>
+            <div class="row">
+              <div class="col-md text-center">
+                <img src="images/index/ApoyoEmpresasUniversidades.webp" class="shadow_box" alt="" style="width: 300px ">
+              </div>
+              <div class="col-md">
+                <p class="titles_p">
+                  Comprobar que tu institución cuente con: 
+
+                  Infraestructura: Espacio para operar un CE e insumos requeridos para cada Estándar. Algunos son: sala de juntas, mesas, sillas, equipo de cómputo, impresoras, escáner, entre otros. 
+
+                  Tecnología: Servicios de internet y paquetería o software requerido para algunos Estándares. 
+
+                  Recursos humanos: Contar con al menos tres personas para operar el CE. Estos deberán tener los siguientes papeles: responsable del CE, asegurador de calidad y evaluador de Estándares de Competencia.  
+                </p>
+              </div>
+            </div>
+            <br>
+            <h4 class="titles_">¿Cuáles son los pasos a seguir?  </h4>
+            <br>
+            <div class="row">
+              <div class="col-md">
+                <ol class="titles_p">
+                  <li>Paso 1. Establecer un instrumento legal de colaboración. </li>
+                  <li>Paso 2. Tomar capación en línea para la transmisión de la metodología CONOCER y el curso “EC0076 – Evaluación de la Competencia de Candidatos con base en Estándares de Competencia”. </li>
+                  <li>Paso 3. Tomar capacitación presencial para aclarar dudas e iniciar el proceso de registro de candidatos a evaluar. </li>
+                  <li>Paso 4. Realizar procesos de evaluación en el EC0076 y Estándar de Competencia de interés.  </li>
+                  <li>Paso 5. Entregar certificados a los participantes que resulten competentes de los procesos de evaluación. </li>
+                </ol>
+              </div>
+              <div class="col-md ">
+                <!-- <img src="images/index/ApoyoEmpresasUniversidades.webp" alt="" style="width: 300px "> -->
+                <h4><b>¿Y despúes?</b></h4>
+                <div class="row">
+                  <div class="col-md shadow_p" >
+                    <h6> <b>La ECE-FESE: </b> </h6>
+                    <ul>
+                      <li>Realizará el registro del CE en el Sistema Integral de Información (SII) del CONOCER. </li>
+                      <li>Generará cédula de acreditación </li>
+                      <li>Entregará el material para operar el CE. </li>
+                    </ul>
+                  </div>
+                  <div class="col-md shadow_p">
+                    <h6> <b>El CE: </b> </h6>
+                    <ul>
+                      <li>Recibirá la cédula y material para su operación. </li>
+                      <li>Adecuará Manuales de operación a su contexto para ofrecer servicios de calidad</li>
+                      <li>Iniciará operaciones. </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+          <div class="">
+            
+              <!-- <h4 class="titles ">¿Qué se necesita para acreditar uno?  </h4> -->
+              <h2 class="text-left border-bottom"> <b>4.</b> <i> Asesoría y consultoría   </i> </h2>
+              <br>
+              <p class="shadow_p">
+                Dentro de la cartera de servicios que ofrece la ECE-FESE, se encuentran los servicios de Asesoría y consultoría para instituciones y candidatos a certificarse en Estándares de Competencia. Instituciones: 
+              </p>
+              <ul class="shadow_p">
+                <li>Asesoría para la creación de Estándares de Competencia que se adecuen a los procesos internos de cada institución. </li>
+                <li>Asesoría para el registro de Centros de Evaluación y Entidades de Certificación y Evaluación. </li>
+              </ul>
+              <ul class="shadow_p">
+                Candidatos: 
+                <li>Asesoría para la generación de productos para procesos de evaluación. </li>
+              </ul>
+            <br>
+              
+            
+            
+          </div>
+          <a name="certificacion"></a>
+          <h2 class="text-center h2-title">Certificación</h2>
+          <br>
+          <h2 class="text-left border-bottom"> <b>5.</b> <i> Pasos del proceso de Evaluación     </i> </h2>
+          <br>
+          <div class=" col-sm-12 col-md ">
+            <div class="">
+              <div class="container border cards_">
+                <br>
+               <ul class="list-unstyled texts_b">
+                   <li class="d-flex">
+                       <div class="flex-shrink-0">
+                           <img src="#" alt="" >
+                       </div>
+                       <div class="flex-grow-1 ms-2">
+                           <h3>
+                            <b>
+                              Paso 1. Ponte en contacto con nosotros y regístrate. 
+                            </b> 
+                           </h3>
+                       </div>
+                   </li>
+                   <li class="d-flex">
+                    <ol>
+                      <li>Identifica el Estándar de Competencia que te agrade.  </li>
+                      <li>Ponte en contacto con la ECE-FESE. Te daremos información detallada y registraremos en nuestra base de datos. </li>
+                      
+                      <!-- <li></li> -->
+                    </ol>
+                   </li>
+                  
+               </ul>
+              </div>
+            </div>
+          </div>   
+          <div class="col-sm-12 col-md ">
+            <div class="">
+              <div class="container border cards_rigth_certificacion">
+              <br>
+               <ul class="list-unstyled texts_b">
+                   <li class="d-flex">
+                       <div class="flex-shrink-0">
+                           <img src="#" alt="" >
+                       </div>
+                       <div class="flex-grow-1 ms-2">
+                           <h3>
+                            <b>
+                              Paso 2. Contesta el diagnóstico y conoce cuánto sabes. 
+                            </b> 
+                           </h3>
+                       </div>
+                   </li>
+                   <li class="d-flex">
+                    <ol>
+                      <li>Te aplicaremos una prueba diagnóstica para conocer el dominio que tienes del tema. </li>
+                      <li>Dependiendo de tu resultado, te recomendaremos iniciar la evaluación o tomar un curso de alineación. La última decisión es tuya. </li>
+                      <!-- <li>Presentar la propuesta de solución. </li> -->
+                      <!-- <li></li> -->
+                    </ol>
+                   </li>
+                  
+               </ul>
+              </div>
+            </div>
+          </div>   
+          <div class="col-sm-12 col-md">
+            <div class="">
+              <div class="container border cards_">
+              <br>
+               <ul class="list-unstyled texts_b">
+                   <li class="d-flex">
+                       <div class="flex-shrink-0">
+                           <img src="#" alt="" >
+                       </div>
+                       <div class="flex-grow-1 ms-2" >
+                           <h3>
+                            <b>
+                              Paso 3. Acuerda lugar, hora y fecha para certificarte. 
+                            </b> 
+                           </h3>
+                       </div>
+                   </li>
+                   <li class="d-flex">
+                     <ol >
+                      <li>Te asignaremos un Evaluador. Él se encargará de resolver tus dudas y explicará cómo es el proceso que deberás seguir para Evaluarte. </li>
+                      <li>Acordaras el día, hora y lugar para iniciar tu evaluación y recibir resultados. </li>
+                      <!-- <li>Presentar la propuesta de solución. </li> -->
+                      <!-- <li></li> -->
+                    </ol>
+                   </li>
+                  
+               </ul>
+              </div>
+            </div>
+          </div>   
+          <div class="col-sm-12 col-md">
+            <div class="">
+              <div class="container border cards_rigth_certificacion">
+              <br>
+               <ul class="list-unstyled texts_b">
+                   <li class="d-flex">
+                       <div class="flex-shrink-0">
+                           <img src="#" alt="" >
+                       </div>
+                       <div class="flex-grow-1 ms-2" >
+                           <h3>
+                            <b>
+                              Paso 4. ¡Evalúate! 
+                            </b> 
+                           </h3>
+                       </div>
+                   </li>
+                   <li class="d-flex">
+                     <ol >
+                      <li>En tu evaluación, realizarás una simulación de trabajo real y una prueba de conocimientos. </li>
+                      <li>El evaluador observará y medirá tus competencias conforme lo establece el Estándar de Competencia. </li>
+                      <!-- <li>Presentar la propuesta de solución. </li> -->
+                      <!-- <li></li> -->
+                    </ol>
+                   </li>
+                  
+               </ul>
+              </div>
+            </div>
+          </div>   
+          <div class="col-sm-12 col-md">
+            <div class="">
+              <div class="container border cards_">
+              <br>
+               <ul class="list-unstyled texts_b">
+                   <li class="d-flex">
+                       <div class="flex-shrink-0">
+                           <img src="#" alt="" >
+                       </div>
+                       <div class="flex-grow-1 ms-2" >
+                           <h3>
+                            <b>
+                              Paso 5. Recibe tus resultados
+                            </b> 
+                           </h3>
+                       </div>
+                   </li>
+                   <li class="d-flex">
+                     <ol >
+                      <li>El Evaluador te dará un resumen de tu desempeño en la evaluación, resaltando tus mejores prácticas, los criterios que no se cumplieron y cuáles son tus áreas de oportunidad. </li>
+                      <li>Esta etapa finalizará cuando te entreguen el veredicto de tu evaluación. </li>
+                      <li>Al término de tu evaluación, y para confirmar que tu evaluación fue realizada con los más altos estándares de calidad, la evaluación se envía a un Grupo de Dictamen para ratificar el resultado que te dieron.  </li>
+                      <!-- <li>Presentar la propuesta de solución. </li> -->
+                      <!-- <li></li> -->
+                    </ol>
+                   </li>
+                  
+               </ul>
+              </div>
+            </div>
+          </div>   
+          <div class="col-sm-12 col-md">
+            <div class="">
+              <div class="container border cards_rigth_certificacion">
+              <br>
+               <ul class="list-unstyled texts_b">
+                   <li class="d-flex">
+                       <div class="flex-shrink-0">
+                           <img src="#" alt="" >
+                       </div>
+                       <div class="flex-grow-1 ms-2" >
+                           <h3>
+                            <b>
+                              Paso 6. Emisión del Certificado 
+                            </b> 
+                           </h3>
+                       </div>
+                   </li>
+                   <li class="d-flex">
+                     <ol >
+                      <li>Una vez que se ratifican los resultados, deberás realizar el pago del certificado. </li>
+                      <li>Recibirás el Certificado y concluirás con la encuesta de satisfacción. </li>
+                      <!-- <li>Presentar la propuesta de solución. </li> -->
+                      <!-- <li></li> -->
+                    </ol>
+                   </li>
+                  
+               </ul>
+              </div>
+            </div>
+          </div>   
+          
+
+
+        </div>
   </main>
   <footer>
     <!-- place footer here -->
+    <br><br>
+    <div class="container  barra_foot">
+      <div class="footer-widget-area justify-content-center">
+        <br>
+        <div class="container align-items-center">
+            <div class="container row container-fluid   ">
+            <!--------------------------------------------------------------------------------------->
+                <div class="col-md-4 bg-secondary" style="margin: auto; border-radius: 12px; align-items: baseline; font-size: large; background: #76c8b8e4 !important;">
+                    <img src="images/logos/LogoESR.webp" class="equalheight" title="Ve nuestro apartado esr" alt="Empresa socialmente responsable"/></a> <!--Se cambio el nombre y se agrego un metadato-->
+                </div>
+            <!--------------------------------------------------------------------------------------->
+                <div class="col-md ">
+                    <h4 class="text-dark" >Ubicación</h4>
+                    <div class="contact-icon text-white">
+
+                        <a style="text-decoration: none; color: #000;" href="https://www.google.com/maps/place/Fundaci%C3%B3n+Educaci%C3%B3n+Superior+Empresa/@19.3734491,-99.1622087,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ffa52c4affa9:0xe7505e0e613e278a!8m2!3d19.3734441!4d-99.1596338!16s%2Fg%2F11b6j9fyp5" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"  text-center> </i> Fundación Educación Superior-Empresa A.C.
+                        Tenayuca 200, Santa Cruz Atoyac,
+                        Benito Juárez, 03310, CDMX.</a>
+                    </div>
+                </div>
+                <div class="col-md ">
+                    <h4 class="text-dark" >Contacto</h4>
+                    <div class="contact-icon text-white">
+                        <a href="tel:55 5605 6100" style="text-decoration: none; color: #000"><i class="fa fa-phone" aria-hidden="true" > </i> 55 5605 6100</a>
+                    </div>
+                   
+                    <div class="contact-icon text-white">
+                        <a href="mailto:ontacto@fese.mx" style="text-decoration: none; color: #000"><i class="fa fa-envelope" aria-hidden="true"> </i> contacto@fese.mx</a>
+                    </div>
+                </div>
+                <!--------------------------------------------------------------------------------------->
+                
+            </div>
+        </div>  
+        <small class="text-dark text-center">Todos los derechos reservados © FESE 2023  </small>
+        <br><br>
+        </div>
+        
+    </div>  
+    </div>
+    <br>   
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -98,6 +749,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+  <script src="js/arrow.js"></script>
 </body>
 
 </html>

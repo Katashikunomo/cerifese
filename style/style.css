@@ -1,3 +1,12 @@
+*{
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: auto;
+scroll-behavior: smooth;
+}
+
 .logo{
     /* border-radius: 100%; */
     box-shadow: 0px 1px 1px #000;
@@ -5,6 +14,9 @@
 
 .barra_nav{
     border-bottom: 8px solid #76c8b8e4 !important;
+}
+.barra_foot{
+    border-top: 8px solid #76c8b8e4 !important;
 }
 
 .navegacion{
@@ -24,10 +36,113 @@
 
 
 /*Contenido*/
-.objetivo{
+.cards_rigth{
     background: linear-gradient(#94e6b7, #9dd8e7);
+    border-radius: 0px 44px 2px 50px;
+    padding: 18px;
+    width: 60%;
+    margin-left: 40%;
+}
+.cards_rigth_certificacion{
+    /* background: linear-gradient(#6dcdcbd1, #56a7a8a9); */
+    background: linear-gradient(#94e6b7, #9dd8e7);
+    border-radius: 0px 44px 2px 50px;
+    padding: 18px;
+    width: 55%;
+    margin-left: 28%;
+}
+.cards_{
+    width: 60%;
+    background: linear-gradient( #94e6b7, #9dd8e7);
     border-radius: 50px 12px 44px 0px;
     padding: 18px;
-    margin: 5px;
+    margin-top: 25px;
     margin-bottom: 25px;
+}
+.cards_table{
+    width: 90%;
+    /* background: linear-gradient(#94e6b7, #9dd8e7); */
+    background: #158d8b93;
+    border-radius: 10px  30px ;
+    padding: 18px;
+    box-shadow: 0px 2px 4px #000;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #eee !important;
+    /* font-weight: bold; */
+}
+
+.texts_b,th,td{
+    color: aliceblue;
+    text-shadow: 0px 1px 8px #000;
+}
+
+
+.cards_title{
+    width: 100%;
+    /* background: linear-gradient(#94e6b7, #9dd8e7); */
+    /* background: linear-gradient(#94e6b7, #9dd8e7); */
+    /* border: 6px solid linear-gradient(#94e6c9d1,#94e6b7) !important; */
+    /* border: 6px solid #94e6c9d1 !important; */
+    border: 6px solid #76c8b8e4 !important;
+    border-radius: 150px 0px 150px 0px;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(1, 1, 1);
+}
+.cards_title{
+    box-shadow: 0px 2px 6px #000 ;
+}
+
+.cards_, .cards_rigth,.cards_rigth_certificacion{
+    box-shadow: 0px 3px 7px #000 ;
+}
+
+.h2-title{
+    border-bottom: 7px solid #76c8b8e4;
+    width: 50%;
+    margin: auto;
+    text-shadow: 0px 1px 2px #000;
+}
+.titles_{
+    border-bottom: 6px solid #76c8b8e4;
+    width: 50%;
+    text-shadow: 0px 1px 2px #000;
+    border-radius: 12px;
+    padding: 12px;
+}
+.titles_r{
+    border-bottom: 6px solid #76c8b8e4;
+    /* width: 50%; */
+    text-shadow: 0px 1px 2px #000;
+    border-radius: 12px;
+    padding: 12px;
+    text-align: right;
+}
+
+.titles_p{
+    border-bottom: 12px solid #76c8b8e4;
+    width: 100%;
+    text-shadow: 0px 1px 2px #000;
+    border-radius: 12px;
+    padding: 12px;
+}
+.shadow_p{
+    text-shadow: 0px 1px 2px #000;
+}
+.shadow_box{
+    box-shadow: 1px 0px 6px #000;
+    border-radius: 12px;
+}
+/* BTN SUBIR*/
+.ir-arriba{
+    /* height: 55px !important; */
+    /* width: 100px !important; */
+    cursor: pointer;
+    position: fixed;
+    /* bottom: 0 !important; */
+    right: 10% ;
+    bottom: 5% ;
 }
