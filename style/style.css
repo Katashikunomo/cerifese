@@ -146,3 +146,24 @@ scroll-behavior: smooth;
     right: 10% ;
     bottom: 5% ;
 }
+
+.buttonPlusUltra
+{
+    width: 90%;
+    /* background: linear-gradient(#94e6b7, #9dd8e7); */
+    background: #158d8b93;
+    border-radius: 10px  30px ;
+    padding: 18px;
+    box-shadow: 0px 2px 4px #000;
+    margin: auto;
+       
+    color: #eee !important;
+    /* font-weight: bold; */
+}
+
+.centrar
+{
+    margin-top: 75px;
+    text-align: center;
+ 
+}
