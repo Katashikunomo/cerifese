@@ -151,13 +151,13 @@ scroll-behavior: smooth;
 {
     width: 90%;
     /* background: linear-gradient(#94e6b7, #9dd8e7); */
-    background: #158d8b93;
+    background: #17acc6;
     border-radius: 10px  30px ;
     padding: 18px;
     box-shadow: 0px 2px 4px #000;
     margin: auto;
        
-    color: #eee !important;
+    color:  #ffffff !important;
     /* font-weight: bold; */
 }
 
@@ -167,3 +167,13 @@ scroll-behavior: smooth;
     text-align: center;
  
 }
+p
+ {
+    text-align: justify;
+  }
+h3,h2,h1
+{
+    text-align: left;
+    color:#17acc6;
+}
+
